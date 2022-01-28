@@ -1,4 +1,3 @@
-/// Library level annotations for adding PKRU-Safe instrumentation
 #![feature(plugin, custom_attribute)]
 #![feature(macros_in_extern)]
 #![plugin(mpk_protector)]

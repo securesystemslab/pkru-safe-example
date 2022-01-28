@@ -1,0 +1,14 @@
+[package]
+name = "pkru_unsafe_lib"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+libc = "0.2"
+#mpk = { git = "https://github.com/securesystemslab/pkru-safe-mpk-libc.git" }
+#mpk_protector = { git = "https://github.com/securesystemslab/pkru-safe-mpk-protector.git" }
+#pkmallocator = { git = "https://github.com/securesystemslab/pkru-safe-pkmallocator.git" }
